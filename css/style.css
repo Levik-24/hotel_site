@@ -1,0 +1,289 @@
+/* common start */
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+h1{
+    font-size: 60px;
+    margin-bottom: 75px;
+    line-height: 70px;
+    
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 23px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+h4{
+    color: #0F4C92;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+}
+/* common end */
+
+/* header start */
+header{
+    background-image: url('../images/header_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 35px 0 175px;
+    color: #F0F0F0;
+}
+
+.logotype{
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    margin-bottom: 227px;
+}
+
+.btn{
+    background-color: #FF9728;
+    border: none;
+    padding: 16px 40px;
+    font-size: 21px;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+/* header end */
+
+/* section info start */
+.info{
+    background-color: #DEF0FF;
+}
+
+.container_info{
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container_info{
+     color: #0F4C92;
+     padding: 120px;
+}
+
+/* section info end */
+
+/* advantages start */
+
+.advantages{
+    padding:80px 0 110px;
+    background-color: #F2F9FF;
+}
+
+.advantages_blocks{
+    width: 1195px;
+    margin: 0 auto;
+}
+
+.advantage_block{
+    display: flex;
+    margin-top: 30px;
+}
+
+.advantage_block:nth-child(2) img{
+    order: 1;
+}
+
+.advantage_block:nth-child(2) .advantage_description{
+    padding-left: 0;
+    padding-right: 80px;
+}
+
+.advantage_block img{
+    width: 585px;
+    height: 580px;
+    border-radius: 10px;
+}
+
+.advantage_description{
+    padding-left: 80px;
+    padding-top: 65px;
+    
+}
+
+.date{
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 40px;
+}
+
+.date span{
+    font-weight: bold;
+}
+
+.advantage_description p{
+    font-size: 18px;
+    color: #1B1B1B;
+    margin-top: 40px;
+}
+
+.more_info{
+    font-size: 21px;
+    line-height: 24.5px;
+    color: #FFFFFF;
+    background: #0D599C;
+    border: none;
+    padding: 15px 70px;
+    border-radius: 47px;
+    cursor: pointer;
+    
+}
+/* advantages end */
+
+
+
+/* Form start */
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.callback-form{
+    background: linear-gradient(327.75deg, #0080BF 9.35%, #00496C 117.99%);
+    border-radius: 50px;
+    padding: 100px 80px 50px;
+}
+
+.callback-form h2{
+    color: #F9F9F9;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.callback-form input{
+    width: 350px;
+    border: 1px solid #F6F6F6;
+    background-color: transparent;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 21px;
+    box-sizing: border-box;
+
+}
+
+.callback-form input:first-child{
+    margin-right: 15px;
+}
+    
+.callback-form input::placeholder{
+    font-size: 18px;
+    color: #B2E3FF;
+}
+
+.callback-form .callback-form__btn{
+    background-color: #FF9728;
+    border: none;
+    padding: 16px 40px;
+    font-size: 21px;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    width: 190px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+
+/* form end */
+
+/* booking start */
+.booking{
+    background-color: #B5E4FF;
+    padding: 97px 293px;
+}
+
+.booking_block{
+    width: 785px;
+    height: 348px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 19px;
+    background-color: #2B477C;
+    color: #F4F4F4;
+}
+
+.booking_block h2{
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.booking_block p{
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 40px;
+}
+
+.booking_block .btn{
+    margin: 0 auto;
+}
+
+/* booking end */
+
+/* map saction start */
+
+.map_section h2{
+    color: #0F4C92;
+    text-align: center;
+    margin: 75px 0;
+}
+
+.map{
+    width: 100%;
+    height: 355px;
+}
+/* map section end */
+
+/* start of end page */
+.end_of_page{
+    background-color: #0B83BE;
+    width: 100%;
+    height: 445px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.end_of_page .logotype{
+    padding-top: 45px;
+}
+
+.text{
+    margin-bottom: 113px;
+    margin-left: 320px;
+    margin-right: 320px;
+    font-size: 16px;
+}
+
+/* .txt1_of_end_page */
+
+
+/* finish of end page */
